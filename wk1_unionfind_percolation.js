@@ -14,9 +14,8 @@ WeightedQuickUnionUF.prototype.connected = function (n, m) {
 
   if (nRoot === mRoot) {
     return true;
-  } else {
-    return false;
   }
+  return false;
 };
 
 WeightedQuickUnionUF.prototype.count = function () {
